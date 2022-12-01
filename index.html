@@ -1,0 +1,577 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kalasag Shoe Corp</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="js/bootstrap-4.3.1.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<script src="js/bootstrap-4.3.1.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+  
+	<style>
+body {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 0 !important;
+}
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1020;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px auto;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+	<link href="css/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+	<!---NAVBAR---->
+	<nav>
+<header style="position: relative; background: black;">
+ 
+    
+       <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Home</a>
+  <a href="register.html">Products</a>
+  <a href="register.html">About Us</a>
+  <a href="login.html">Log - in</a>
+		   <a href="register.html">Register</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+  
+
+      
+		 
+    </div>
+  </nav>
+</header> 
+	
+		<!----------Carousel----------->
+    
+		<div id="myCarousel" class="carousel slide p-5 p-lg-0" data-bs-ride="carousel" style="margin-bottom:0 !important ;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+    </div>
+    <div class="carousel-inner" >
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption img-fluid">
+            <img src="image/background/1.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+           <img src="image/background/2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption ">
+            <img src="image/background/3.jpg">
+          </div>
+        </div>
+      </div>
+		<div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption ">
+           <img src="image/background/4.jpg">
+          </div>
+        </div>
+      </div>
+		<div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <img src="image/background/5.jpg">
+          </div>
+        </div>
+      </div>
+		<div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption ">
+            <img src="image/background/6.jpg">
+          </div>
+        </div>
+      </div>
+		<div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption ">
+            <img src="image/background/7.jpg">
+          </div>
+        </div>
+      </div>
+		<div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption ">
+           <img src="image/background/8.jpg">
+          </div>
+        </div>
+      </div>
+		<div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption ">
+           <img src="image/background/10.jpg">
+          </div>
+        </div>
+      </div>
+		<div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption ">
+           <img src="image/background/9.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+	
+  <!---Qoutes------>
+
+  <div class="section bg-secondary text-light p-5" style="font-family:cursive;">
+		<div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h4>
+        Qoute of the Day:
+        </h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h5 class="mb-3 mb-md-0" id="q"></h5>
+      </div>
+    </div>
+	</div>
+
+  <!----------3 Cards----------->
+
+  <section class="p-5">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-md">
+          <div class=" card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+              <i class="bi bi-laptop"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Virtual
+              </h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, praesentium.s
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md"><div class=" card bg-secondary text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+            <i class="bi bi-check-circle-fill"></i>
+            </div>
+            <h3 class="card-title mb-3">
+              Legit
+            </h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, praesentium.s
+            </p>
+          </div>
+        </div>
+      </div>
+        <div class="col-md"><div class=" card bg-dark text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+            <i class="bi bi-hourglass-split"></i>
+            </div>
+            <h3 class="card-title mb-3">
+              Fast
+            </h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, praesentium.s
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------Products preview Section---------->
+<section class="p-5">
+  <div class="container">
+  <div class="row align-items-center justify-content-between">
+      <div class="col-md">
+        <img src="image/review.jpg" class="img-fluid" alt="" width="350px" height="350px">
+      </div>
+      <div class="col-md p-5">
+        <h2>Always Take the Lead</h2>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus tenetur
+           explicabo cum ratione id eos qui vel nulla fugit rem?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid blanditiis, 
+          corrupti nesciunt aliquam ad officia eius laborum nemo a culpa quasi, qui quis enim, 
+          necessitatibus sed accusamus aperiam similique facere!</p>
+          <a href="#" class="btn btn-dark mt-3">
+            <i class="bi bi-chevron-right"></i> Explore
+          </a>
+      </div>
+  </div>
+  </div>
+</section>
+
+<section class="p-5 bg-dark text-light">
+  <div class="container">
+  <div class="row align-items-center justify-content-between">
+      <div class="col-md p-5">
+        <h2>You are your own Master</h2>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus tenetur
+           explicabo cum ratione id eos qui vel nulla fugit rem?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid blanditiis, 
+          corrupti nesciunt aliquam ad officia eius laborum nemo a culpa quasi, qui quis enim, 
+          necessitatibus sed accusamus aperiam similique facere!</p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i> Explore
+          </a>
+      </div>
+      <div class="col-md">
+        <img src="image/second.png" class="img-fluid" alt="" width="350px" height="350px">
+      </div>
+  </div>
+  </div>
+</section>
+  
+
+<!-----------FAQ's by paeng pogi-------------->
+
+<section class="p-5">
+  <div class="container">
+    <h2 class="text-center mb-4">
+      Frequently Asked Questions
+    </h2>
+    <div class="accordion accordion-flush">
+
+      <!---------Item 1-------->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" >
+            Where are you located?
+          </button>
+        </h2>
+        <div id="question-one" class="accordion-collapse collapse"  data-bs-parent="#question">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae 
+            aperiam corrupti ipsum? Voluptate adipisci nesciunt quibusdam recusandae tenetur minus sequi, 
+            cupiditate dolorem? Enim, temporibus? Dolore esse placeat aspernatur repellat ipsa!</div>
+        </div>
+      </div>
+
+      <!-----Item 2------->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" >
+            Are your products legit?
+          </button>
+        </h2>
+        <div id="question-two" class="accordion-collapse collapse"  data-bs-parent="#question">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae 
+            aperiam corrupti ipsum? Voluptate adipisci nesciunt quibusdam recusandae tenetur minus sequi, 
+            cupiditate dolorem? Enim, temporibus? Dolore esse placeat aspernatur repellat ipsa!</div>
+        </div>
+      </div>
+
+      <!-----Item 3------->   
+      <div class="accordion-item">
+        <h2 class="accordion-header" >
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three" >
+            Are all your stores online?
+          </button>
+        </h2>
+        <div id="question-three" class="accordion-collapse collapse"  data-bs-parent="#question">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae 
+            aperiam corrupti ipsum? Voluptate adipisci nesciunt quibusdam recusandae tenetur minus sequi, 
+            cupiditate dolorem? Enim, temporibus? Dolore esse placeat aspernatur repellat ipsa!</div>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four" >
+            How do i order?
+          </button>
+        </h2>
+        <div id="question-four" class="accordion-collapse collapse"  data-bs-parent="#question">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae 
+            aperiam corrupti ipsum? Voluptate adipisci nesciunt quibusdam recusandae tenetur minus sequi, 
+            cupiditate dolorem? Enim, temporibus? Dolore esse placeat aspernatur repellat ipsa!</div>
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five" >
+            Do you ship overseas?
+          </button>
+        </h2>
+        <div id="question-five" class="accordion-collapse collapse"  data-bs-parent="#question">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae 
+            aperiam corrupti ipsum? Voluptate adipisci nesciunt quibusdam recusandae tenetur minus sequi, 
+            cupiditate dolorem? Enim, temporibus? Dolore esse placeat aspernatur repellat ipsa!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Product Reviews hehehehe -->
+
+<section class="p-5 bg-dark">
+  <div class="container">
+    <h2 class="text-center text-white">
+      Our Customer Reviews
+    </h2>
+    <p class="lead text-center text-white mb-5">
+      Here are some  product reviews from our very satisfied customers
+    </p>
+    <div class="row g-5">
+      <!-- review 1 -->
+      <div class="cold-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/53.jpg" 
+            class="rounded-circle mb-3" alt="">
+            <h3 class="card-title mb-3">Antonio Ricochet</h3>
+            <p class="card-text">Lorem ipsum dolor, sit amet 
+              consectetur adipisicing elit. Quaerat laudantium quam, vel perspiciatis mollitia in!</p>
+              <a href="https://twitter.com"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="https://facebook.com/user"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="https://instagram.com"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- review 2 -->
+      <div class="cold-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" 
+            class="rounded-circle mb-3" alt="">
+            <h3 class="card-title mb-3">Simon Cowell</h3>
+            <p class="card-text">Lorem ipsum dolor, sit amet 
+              consectetur adipisicing elit. Quaerat laudantium quam, vel perspiciatis mollitia in!</p>
+              <a href="https://twitter.com"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="https://facebook.com/user"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="https://instagram.com"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- review 3 -->
+      <div class="cold-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/women/30.jpg" 
+            class="rounded-circle mb-3" alt="">
+            <h3 class="card-title mb-3">Anna Liza</h3>
+            <p class="card-text">Lorem ipsum dolor, sit amet 
+              consectetur adipisicing elit. Quaerat laudantium quam, vel perspiciatis mollitia in!</p>
+              <a href="https://twitter.com"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="https://facebook.com/user"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="https://instagram.com"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- review 4 -->
+      <div class="cold-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/69.jpg" 
+            class="rounded-circle mb-3" alt="">
+            <h3 class="card-title mb-3">Bruce Wayne</h3>
+            <p class="card-text">Lorem ipsum dolor, sit amet 
+              consectetur adipisicing elit. Quaerat laudantium quam, vel perspiciatis mollitia in!</p>
+              <a href="https://twitter.com"><i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="https://facebook.com/user"><i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="https://instagram.com"><i class="bi bi-instagram text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contacts and location -->
+<section class="p-5">
+  <div class="container">
+  <div class="row g-4">
+    <div class="col-md">
+      <h2 class="text-center mb-4">Contact Info</h2>
+      <ul class="list-group list-group-flush lead">
+        <li class="list-group-item">
+          <span class="fw-bold">Main Address:</span> Brgy.1 Public Market Jones, Isabela
+        </li>
+        <li class="list-group-item">
+          <span class="fw-bold">Phone Number:</span> +639916142836
+        </li>
+        <li class="list-group-item">
+          <span class="fw-bold">Tel. Number:</span> +6399163423455
+        </li>
+        <li class="list-group-item">
+          <span class="fw-bold">Email Address:</span> Rafaelpascua4069@gmail.com
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-md">
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+<!-- footer -->
+<footer class="p-5 bg-dark text-white text-center
+position-relative">
+  <div class="container">
+    <p class="lead">
+      Copyright &copy; 2022. All rights reserved
+    </p>
+    <a href="admin.html">Admin Page</a>
+    <a href="#" class="position-absolute bottom-0 end-0 p-5">
+      <i class="bi bi-arrow-up-circle h1"></i>
+    </a>
+  </div>
+</footer>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+var category = 'happiness'
+    $.ajax({
+        method: 'GET',
+        url: 'https://api.api-ninjas.com/v1/quotes?category=' + category,
+        headers: { 'X-Api-Key': 'ToCfG0A/2Y9rS7AiwSj0BA==5YvMUReDisFAtJ0P'},
+        contentType: 'application/json',
+        success: function(result) {
+            console.log(result);
+
+            var q=result;
+            var quote=result[0].quote;
+            console.log(quote);
+
+            let q1 = document.getElementById("q")
+            q1.textContent =quote 
+        },
+        error: function ajaxError(jqXHR) {
+            console.error('Error: ', jqXHR.responseText);
+        }
+    });
+
+</script>
+</body>
+</html>

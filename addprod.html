@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="addprod.php" method="post" enctype="multipart/form-data">
+        Product Name:<br>
+        <input class="form-control" type="text" name="prodname"><br>
+        Description:<br>
+        <input class="form-control" type="text" name="prodesc"><br>
+        Price:<br>
+        <input class="form-control" type="text" name="prodprice"><br>
+        Product Picture:<br>
+        <input class="form-control" type="file" name="image"><br>
+        <br><br>
+        <input class="btn btn-lg btn-outline-primary " type="submit" name="save" value="Submit">
+    </form>
+
+
+    
+</body>
+</html>
